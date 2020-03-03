@@ -1,18 +1,18 @@
 [
     {
         "id":"1",
-        "book-title": "1984",
+        "book_title": "1984",
         "author": "Goeorge Orewell",
         "Year": "1949",
-        "pages-count": "328"
+        "pages_count": "328"
     },
 
     {
         "id":"2",
-        "book-title": "Java A Beginner's Guide",
+        "book_title": "Java A Beginner's Guide",
         "author": "Herbert Schildt",
         "Year": "2014",
-        "pages-count679": "679"
+        "pages_count679": "679"
     }
 
 ]

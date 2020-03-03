@@ -11,8 +11,8 @@ app.use(express.json()); // (L) Used to receive and  understand json format
 app.use(express.urlencoded({extended: false})); // (L) Used to support basic input from form
 
 // routes
-app.use(require('./routes/index'));
-app.use(require('./routes/books'));
+app.use('/api/test',require('./routes/index'));
+app.use('/api/books/',require('./routes/books'));
 
 // Starting the server
 app.listen(8005, () => {
