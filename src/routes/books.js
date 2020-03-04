@@ -27,7 +27,6 @@ router.post('/', (req, res) => {
 router.delete('/:id', (req, res) => {
     const {id} = req.params;
     underscore.each(jsonBooks, (book, i) => {
-        console.log(id);
         if(book.id == id){
             console.log('inside');
             jsonBooks.splice(i,1);
