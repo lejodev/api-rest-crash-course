@@ -3,7 +3,7 @@
         "id":"1",
         "book_title": "1984",
         "author": "Goeorge Orewell",
-        "Year": "1949",
+        "year": "1949",
         "pages_count": "328"
     },
 
@@ -11,8 +11,8 @@
         "id":"2",
         "book_title": "Java A Beginner's Guide",
         "author": "Herbert Schildt",
-        "Year": "2014",
-        "pages_count679": "679"
+        "year": "2014",
+        "pages_count": "679"
     }
 
 ]
