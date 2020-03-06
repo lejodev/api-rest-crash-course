@@ -13,6 +13,7 @@ app.use(express.urlencoded({extended: false})); // (L) Used to support basic inp
 // routes
 app.use('/api/test',require('./routes/index'));
 app.use('/api/books/',require('./routes/books'));
+app.use('/api/users/' ,require('./routes/users'));
 
 // Starting the server
 app.listen(8005, () => {
